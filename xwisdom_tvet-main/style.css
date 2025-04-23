@@ -1,0 +1,154 @@
+body{
+    background: rgb(59, 72, 85);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.gap-3{
+    gap: 3px;
+}
+.p-2{
+    padding: 2px;
+}
+.p-3{
+    padding: 3px;
+}
+.items-center{
+    align-items: center;
+}
+.justfy-center{
+    justify-items: center;
+}
+.btn{
+    width: auto;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    border-radius: 6px;
+}
+.btn-small{
+    width: auto;
+    text-decoration: none;
+    padding: 5px;
+    border: 0px;
+    font-size: 10px;
+    color: white;
+    border-radius: 6px;
+}
+.bg-red{
+    background: red;
+}
+.bg-green{
+    background: green;
+}
+.m-auto{
+    margin: auto;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.w-full{
+    width: 100%;
+}
+.inputs{
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.wd-form{
+    background: white;
+    border: 1px solid lightgray;
+    max-width: 340px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.primary{
+    background: #345;
+}
+.link{
+    text-decoration: none;
+    width: 100%;
+    color: rgb(77, 77, 252);
+}
+.error{
+    background:rgb(255, 199, 199);
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}.success{
+    background:rgb(214, 255, 199);
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.navBar{
+    background: white;
+    padding: 2px;
+    display: flex;
+    gap: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-items: center;
+    justify-content: space-between;
+}
+.navBar .navs{
+    display: flex;
+    gap: 3px;
+}
+.navBar .navs a{
+    font-size: 12px;
+    color: rgb(65, 65, 255);
+    padding: 5px;
+    text-decoration: none;
+}
+.navBar .navs a .active{
+    background: rgb(65, 65, 255);
+    color: white;
+}
+.navBar .navs a:hover{
+    background: rgb(154, 154, 255);
+}
+.logout{
+    background: red;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    font-size: 11px;
+    border-radius: 4px;
+}
+.table{
+    background: white;
+    padding: 4px;
+    margin:50px auto;
+    overflow: auto;
+    border-radius: 10px;
+    max-width:1200px;
+}
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table table tr th{
+    padding: 12px;
+    color: rgb(26, 29, 51);
+}
+.table table tbody tr:nth-child(odd){
+    background: gray;
+    color: rgb(235, 241, 246);
+}
+.table table tr td{
+    padding: 6px;
+    text-align: center;
+    color: rgb(26, 29, 51);
+}
